@@ -1,0 +1,341 @@
+{
+  "generated_at": "2026-09-13T12:55:45.451Z",
+  "source": "https://dblp.org/pid/165/2974.html",
+  "author_name": "Anne-Marie George",
+  "publications": [
+    {
+      "title": "Prognostic biomarker discovery in pancreatic cancer through hybrid ensemble feature selection and multi-omics data",
+      "authors": [
+        "John Zobolas",
+        "Anne-Marie George",
+        "Alberto L&#243;pez",
+        "Sebastian Fischer 0004",
+        "Marc Becker",
+        "Tero Aittokallio"
+      ],
+      "venue": "BioData Min.",
+      "year": 2026,
+      "type": "journal",
+      "url": "https://doi.org/10.1186/s13040-026-00546-0"
+    },
+    {
+      "title": "Probably Correct Optimal Stable Matching under Two-Sided Uncertainty",
+      "authors": [
+        "Andreas Athanasopoulos",
+        "Anne-Marie George",
+        "Christos Dimitrakakis"
+      ],
+      "venue": "CoRR",
+      "year": 2026,
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arXiv.2607.04824"
+    },
+    {
+      "title": "Cycles in Liquid Democracy: A Game-Theoretic Justification",
+      "authors": [
+        "Markus Brill",
+        "Rachael Colley",
+        "Anne-Marie George",
+        "Grzegorz Lisowski",
+        "Georgios Papasotiropoulos",
+        "Ulrike Schmidt-Kraepelin"
+      ],
+      "venue": "CoRR",
+      "year": 2026,
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arXiv.2607.12610"
+    },
+    {
+      "title": "Probably Correct Optimal Stable Matching for Two-Sided Market Under Uncertainty",
+      "authors": [
+        "Andreas Athanasopoulos",
+        "Anne-Marie George",
+        "Christos Dimitrakakis"
+      ],
+      "venue": "AAMAS",
+      "year": 2025,
+      "type": "conference",
+      "url": "https://dl.acm.org/doi/10.5555/3709347.3743527"
+    },
+    {
+      "title": "On Middle Grounds for Preference Statements",
+      "authors": [
+        "Anne-Marie George",
+        "Ana Ozaki"
+      ],
+      "venue": "IJCAI",
+      "year": 2025,
+      "type": "conference",
+      "url": "https://doi.org/10.24963/ijcai.2025/503"
+    },
+    {
+      "title": "Probably Correct Optimal Stable Matching for Two-Sided Markets Under Uncertainty",
+      "authors": [
+        "Andreas Nikolaos Athanasopoulos",
+        "Anne-Marie George",
+        "Christos Dimitrakakis"
+      ],
+      "venue": "CoRR",
+      "year": 2025,
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arXiv.2501.03018"
+    },
+    {
+      "title": "Optimizing Prognostic Biomarker Discovery in Pancreatic Cancer Through Hybrid Ensemble Feature Selection and Multi-Omics Data",
+      "authors": [
+        "John Zobolas",
+        "Anne-Marie George",
+        "Alberto L&#243;pez",
+        "Sebastian Fischer 0004",
+        "Marc Becker",
+        "Tero Aittokallio"
+      ],
+      "venue": "CoRR",
+      "year": 2025,
+      "type": "preprint",
+      "url": "https://doi.org/10.48550/arXiv.2509.02648"
+    },
+    {
+      "title": "Minimal Macro-Based Rewritings of Formal Languages: Theory and Applications in Ontology Engineering (and Beyond)",
+      "authors": [
+        "Christian Kindermann",
+        "Anne-Marie George",
+        "Bijan Parsia",
+        "Uli Sattler"
+      ],
+      "venue": "AAAI",
+      "year": 2024,
+      "type": "conference",
+      "url": "https://doi.org/10.1609/aaai.v38i9.28928"
+    },
+    {
+      "title": "Eliciting Kemeny Rankings",
+      "authors": [
+        "Anne-Marie George",
+        "Christos Dimitrakakis"
+      ],
+      "venue": "AAAI",
+      "year": 2024,
+      "type": "conference",
+      "url": "https://doi.org/10.1609/aaai.v38i11.29105"
+    },
+    {
+      "title": "Threshold Recourse for Dynamic Allocations",
+      "authors": [
+        "Meirav Segal",
+        "Anne-Marie George",
+        "Christos Dimitrakakis"
+      ],
+      "venue": "EWAF",
+      "year": 2024,
+      "type": "conference",
+      "url": "https://ceur-ws.org/Vol-3908/paper_57.pdf"
+    },
+    {
+      "title": "Better Luck Next Time: About Robust Recourse in Binary Allocation Problems",
+      "authors": [
+        "Meirav Segal",
+        "Anne-Marie George",
+        "Ingrid Chieh Yu",
+        "Christos Dimitrakakis"
+      ],
+      "venue": "xAI (3)",
+      "year": 2024,
+      "type": "conference",
+      "url": "https://doi.org/10.1007/978-3-031-63800-8_19"
+    },
+    {
+      "title": "Policy Fairness and Unknown Bias Dynamics in Sequential Allocations",
+      "authors": [
+        "Meirav Segal",
+        "Anne-Marie George",
+        "Christos Dimitrakakis"
+      ],
+      "venue": "EAAMO",
+      "year": 2023,
+      "type": "conference",
+      "url": "https://doi.org/10.1145/3617694.3623262"
+    },
+    {
+      "title": "The excess method: a multiwinner approval voting procedure to allocate wasted votes",
+      "authors": [
+        "Steven J. Brams",
+        "Markus Brill",
+        "Anne-Marie George"
+      ],
+      "venue": "Soc. Choice Welf.",
+      "year": 2022,
+      "type": "journal",
+      "url": "https://doi.org/10.1007/s00355-021-01358-3"
+    },
+    {
+      "title": "Liquid Democracy with Ranked Delegations",
+      "authors": [
+        "Markus Brill",
+        "Th&#233;o Delemazure",
+        "Anne-Marie George",
+        "Martin Lackner",
+        "Ulrike Schmidt-Kraepelin"
+      ],
+      "venue": "AAAI",
+      "year": 2022,
+      "type": "conference",
+      "url": "https://doi.org/10.1609/aaai.v36i5.20417"
+    },
+    {
+      "title": "On Meritocracy in Optimal Set Selection",
+      "authors": [
+        "Thomas Kleine Buening",
+        "Meirav Segal",
+        "Debabrota Basu",
+        "Anne-Marie George",
+        "Christos Dimitrakakis"
+      ],
+      "venue": "EAAMO",
+      "year": 2022,
+      "type": "conference",
+      "url": "https://doi.org/10.1145/3551624.3555305"
+    },
+    {
+      "title": "Interactive Inverse Reinforcement Learning for Cooperative Games",
+      "authors": [
+        "Thomas Kleine B&#252;ning",
+        "Anne-Marie George",
+        "Christos Dimitrakakis"
+      ],
+      "venue": "ICML",
+      "year": 2022,
+      "type": "conference",
+      "url": "https://proceedings.mlr.press/v162/buning22a.html"
+    },
+    {
+      "title": "Single-Peaked Opinion Updates",
+      "authors": [
+        "Robert Bredereck",
+        "Anne-Marie George",
+        "Jonas Israel",
+        "Leon Kellerhals"
+      ],
+      "venue": "IJCAI",
+      "year": 2022,
+      "type": "conference",
+      "url": "https://doi.org/10.24963/ijcai.2022/20"
+    },
+    {
+      "title": "Simulating University Application Data for Fair Matchings",
+      "authors": [
+        "Meirav Segal",
+        "Anne-Marie George",
+        "Christos Dimitrakakis"
+      ],
+      "venue": "NAIS",
+      "year": 2022,
+      "type": "conference",
+      "url": "https://doi.org/10.1007/978-3-031-17030-0_11"
+    },
+    {
+      "title": "Assigning and Scheduling Service Visits in a Mixed Urban/Rural Setting",
+      "authors": [
+        "Mark Antunes",
+        "Vincent Armant",
+        "Kenneth N. Brown",
+        "Daniel A. Desmond",
+        "Guillaume Escamocher",
+        "Anne-Marie George",
+        "Diarmuid Grimes",
+        "Mike O'Keeffe",
+        "Yiqing Lin",
+        "Barry O'Sullivan",
+        "Cemalettin Ozturk",
+        "Luis Quesada 0001",
+        "Mohamed Siala 0002",
+        "Helmut Simonis",
+        "Nic Wilson"
+      ],
+      "venue": "Int. J. Artif. Intell. Tools",
+      "year": 2020,
+      "type": "journal",
+      "url": "https://doi.org/10.1142/S0218213020600076"
+    },
+    {
+      "title": "Preference inference based on lexicographic and Pareto models",
+      "authors": [
+        "Anne-Marie George"
+      ],
+      "venue": "University College Cork, Republic of Ireland",
+      "year": 2019,
+      "type": "thesis",
+      "url": "http://hdl.handle.net/10468/7781"
+    },
+    {
+      "title": "Efficient Inference and Computation of Optimal Alternatives for Preference Languages Based On Lexicographic Models",
+      "authors": [
+        "Nic Wilson",
+        "Anne-Marie George"
+      ],
+      "venue": "IJCAI",
+      "year": 2017,
+      "type": "conference",
+      "url": "https://doi.org/10.24963/ijcai.2017/182"
+    },
+    {
+      "title": "Preference Inference Based on Hierarchical and Simple Lexiographic Models",
+      "authors": [
+        "Nic Wilson",
+        "Anne-Marie George",
+        "Barry O'Sullivan"
+      ],
+      "venue": "FLAP",
+      "year": 2017,
+      "type": "journal",
+      "url": "http://www.collegepublications.co.uk/downloads/ifcolog00016.pdf"
+    },
+    {
+      "title": "Towards Fast Algorithms for the Preference Consistency Problem Based on Hierarchical Models",
+      "authors": [
+        "Anne-Marie George",
+        "Nic Wilson",
+        "Barry O'Sullivan"
+      ],
+      "venue": "IJCAI",
+      "year": 2016,
+      "type": "conference",
+      "url": "http://www.ijcai.org/Abstract/16/157"
+    },
+    {
+      "title": "Preference Inference Based on Pareto Models",
+      "authors": [
+        "Anne-Marie George",
+        "Nic Wilson"
+      ],
+      "venue": "SUM",
+      "year": 2016,
+      "type": "conference",
+      "url": "https://doi.org/10.1007/978-3-319-45856-4_12"
+    },
+    {
+      "title": "Computation and Complexity of Preference Inference Based on Hierarchical Models",
+      "authors": [
+        "Nic Wilson",
+        "Anne-Marie George",
+        "Barry O'Sullivan"
+      ],
+      "venue": "IJCAI",
+      "year": 2015,
+      "type": "conference",
+      "url": "http://ijcai.org/Abstract/15/461"
+    },
+    {
+      "title": "The Comparison of Multi-objective Preference Inference Based on Lexicographic and Weighted Average Models",
+      "authors": [
+        "Anne-Marie George",
+        "Abdul Razak",
+        "Nic Wilson"
+      ],
+      "venue": "ICTAI",
+      "year": 2015,
+      "type": "conference",
+      "url": "https://doi.org/10.1109/ICTAI.2015.26"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "annemage-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch-dblp": "node scripts/fetch-dblp.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0",
+    "playwright": "^1.47.2"
+  }
+}

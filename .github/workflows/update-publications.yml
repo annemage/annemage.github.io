@@ -1,0 +1,35 @@
+name: Update publications from DBLP
+
+on:
+  schedule:
+    # Every Monday at 05:00 UTC
+    - cron: "0 5 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Chromium for Playwright
+        run: npx playwright install --with-deps chromium
+
+      - name: Fetch publications from DBLP
+        run: npm run fetch-dblp
+
+      - name: Commit updated publication list
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update publications from DBLP"
+          file_pattern: assets/data/publications.json
