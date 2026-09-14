@@ -59,7 +59,7 @@ p { margin: 0 0 1em; }
   border-radius: 6px;
   object-fit: cover;
   flex-shrink: 0;
-  filter: url(#posterizeFilter);
+  filter: url(#sketchFilter);
 }
 
 .profile-header h1 { margin-bottom: 0.15em; }

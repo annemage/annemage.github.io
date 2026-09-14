@@ -12,13 +12,20 @@
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
-    <!-- Flat posterized-grayscale treatment for the profile picture -->
-    <filter id="posterizeFilter">
-      <feColorMatrix type="saturate" values="0"/>
-      <feComponentTransfer>
-        <feFuncR type="discrete" tableValues="0.15 0.5 0.85 1"/>
-        <feFuncG type="discrete" tableValues="0.15 0.5 0.85 1"/>
-        <feFuncB type="discrete" tableValues="0.15 0.5 0.85 1"/>
+    <!-- Pencil-sketch treatment for the profile picture -->
+    <filter id="sketchFilter">
+      <feColorMatrix type="saturate" values="0" result="gray"/>
+      <feComponentTransfer in="gray" result="inverted">
+        <feFuncR type="table" tableValues="1 0"/>
+        <feFuncG type="table" tableValues="1 0"/>
+        <feFuncB type="table" tableValues="1 0"/>
+      </feComponentTransfer>
+      <feGaussianBlur in="inverted" stdDeviation="4" result="blurred"/>
+      <feBlend in="gray" in2="blurred" mode="color-dodge" result="sketch"/>
+      <feComponentTransfer in="sketch">
+        <feFuncR type="linear" slope="1.05" intercept="-0.05"/>
+        <feFuncG type="linear" slope="1.05" intercept="-0.05"/>
+        <feFuncB type="linear" slope="1.05" intercept="-0.05"/>
       </feComponentTransfer>
     </filter>
   </defs>
