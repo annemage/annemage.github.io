@@ -43,13 +43,19 @@ p { margin: 0 0 1em; }
 .profile-header {
   display: flex;
   align-items: center;
-  gap: 1.1rem;
+  gap: 1.8rem;
+  flex-wrap: wrap;
   margin-bottom: 0.4em;
 }
 
+.profile-text {
+  flex: 1 1 260px;
+  min-width: 0;
+}
+
 .profile-pic {
-  width: 48px;
-  height: 48px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
