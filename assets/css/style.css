@@ -40,6 +40,25 @@ p { margin: 0 0 1em; }
 
 .tagline { font-size: 1.15rem; color: var(--text-muted); margin-bottom: 1.2em; }
 
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.4em;
+}
+
+.profile-pic {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.profile-header h1 { margin-bottom: 0.15em; }
+.profile-header .tagline { margin-bottom: 0; }
+
 .site-nav {
   position: fixed;
   top: 0;
