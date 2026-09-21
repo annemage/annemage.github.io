@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T10:29:44.695Z",
+  "generated_at": "2026-09-21T10:34:28.235Z",
   "source": "https://dblp.org/pid/165/2974.html",
   "author_name": "Anne-Marie George",
   "publications": [
@@ -19,6 +19,21 @@
       "url": "https://doi.org/10.1186/s13040-026-00546-0"
     },
     {
+      "title": "Cycles in Liquid Democracy: A Game-Theoretic Justification",
+      "authors": [
+        "Markus Brill",
+        "Rachael Colley",
+        "Anne-Marie George",
+        "Grzegorz Lisowski",
+        "Georgios Papasotiropoulos",
+        "Ulrike Schmidt-Kraepelin"
+      ],
+      "venue": "IJCAI/ECAI",
+      "year": 2026,
+      "type": "conference",
+      "url": "https://doi.org/10.24963/ijcai.2026/372"
+    },
+    {
       "title": "Probably Correct Optimal Stable Matching under Two-Sided Uncertainty",
       "authors": [
         "Andreas Athanasopoulos",
@@ -29,21 +44,6 @@
       "year": 2026,
       "type": "preprint",
       "url": "https://doi.org/10.48550/arXiv.2607.04824"
-    },
-    {
-      "title": "Cycles in Liquid Democracy: A Game-Theoretic Justification",
-      "authors": [
-        "Markus Brill",
-        "Rachael Colley",
-        "Anne-Marie George",
-        "Grzegorz Lisowski",
-        "Georgios Papasotiropoulos",
-        "Ulrike Schmidt-Kraepelin"
-      ],
-      "venue": "CoRR",
-      "year": 2026,
-      "type": "preprint",
-      "url": "https://doi.org/10.48550/arXiv.2607.12610"
     },
     {
       "title": "Probably Correct Optimal Stable Matching for Two-Sided Market Under Uncertainty",
