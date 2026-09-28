@@ -43,7 +43,7 @@ p { margin: 0 0 1em; }
 .profile-header {
   display: flex;
   align-items: center;
-  gap: 1.8rem;
+  gap: 1.6rem;
   flex-wrap: wrap;
   margin-bottom: 0.4em;
 }
@@ -54,12 +54,11 @@ p { margin: 0 0 1em; }
 }
 
 .profile-pic {
-  width: 220px;
-  height: 220px;
-  border-radius: 6px;
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
-  filter: url(#sketchFilter);
 }
 
 .profile-header h1 { margin-bottom: 0.15em; }
@@ -125,9 +124,10 @@ p { margin: 0 0 1em; }
 
 main {
   max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 5rem 1.5rem 3rem calc(1.5rem);
-  margin-right: calc(var(--nav-width) + 1rem);
+  padding: 5rem 1.5rem 3rem;
+  /* Centre the column, but never let it slide under the fixed nav on the right */
+  margin-left: auto;
+  margin-right: max(calc(var(--nav-width) + 1rem), calc((100% - var(--max-width)) / 2));
 }
 
 section { padding: 3.5rem 0; border-top: 1px solid var(--rule); }
@@ -249,11 +249,10 @@ ul.plain li { padding: 0.35em 0; }
 .timeline dd { margin: 0.1em 0 0; color: var(--text-muted); }
 
 footer.site-footer {
-  margin-right: calc(var(--nav-width));
   padding: 2rem 1.5rem 1rem;
   max-width: var(--max-width);
   margin-left: auto;
-  margin-right: calc(var(--nav-width) + 1rem);
+  margin-right: max(calc(var(--nav-width) + 1rem), calc((100% - var(--max-width)) / 2));
   color: var(--text-muted);
   font-size: 0.85rem;
   text-align: left;
