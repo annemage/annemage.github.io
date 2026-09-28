@@ -67,7 +67,8 @@ p { margin: 0 0 1em; }
 .site-nav {
   position: fixed;
   top: 0;
-  right: 0;
+  /* Sit directly beside the content column; the pair is centred together */
+  right: max(0px, calc((100% - var(--max-width) - var(--nav-width)) / 2));
   width: var(--nav-width);
   height: 100vh;
   display: flex;
@@ -125,9 +126,9 @@ p { margin: 0 0 1em; }
 main {
   max-width: var(--max-width);
   padding: 5rem 1.5rem 3rem;
-  /* Centre the column, but never let it slide under the fixed nav on the right */
-  margin-left: auto;
-  margin-right: max(calc(var(--nav-width) + 1rem), calc((100% - var(--max-width)) / 2));
+  /* Centre column + nav as one unit, leaving room for the nav on the right */
+  margin-left: max(0px, calc((100% - var(--max-width) - var(--nav-width)) / 2));
+  margin-right: var(--nav-width);
 }
 
 section { padding: 3.5rem 0; border-top: 1px solid var(--rule); }
@@ -251,8 +252,8 @@ ul.plain li { padding: 0.35em 0; }
 footer.site-footer {
   padding: 2rem 1.5rem 1rem;
   max-width: var(--max-width);
-  margin-left: auto;
-  margin-right: max(calc(var(--nav-width) + 1rem), calc((100% - var(--max-width)) / 2));
+  margin-left: max(0px, calc((100% - var(--max-width) - var(--nav-width)) / 2));
+  margin-right: var(--nav-width);
   color: var(--text-muted);
   font-size: 0.85rem;
   text-align: left;
@@ -295,7 +296,7 @@ footer.site-footer {
 @media (max-width: 900px) {
   .site-nav { display: none; }
   .mobile-nav { display: block; }
-  main { margin-right: auto; padding-top: 2rem; }
-  footer.site-footer { margin-right: auto; }
+  main { margin-left: auto; margin-right: auto; padding-top: 2rem; }
+  footer.site-footer { margin-left: auto; margin-right: auto; }
   h1 { font-size: 1.9rem; }
 }
