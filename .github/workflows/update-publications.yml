@@ -28,8 +28,12 @@ jobs:
       - name: Fetch publications from DBLP
         run: npm run fetch-dblp
 
-      - name: Commit updated publication list
+      # Commits made with GITHUB_TOKEN don't trigger build-cv.yml, so rebuild here
+      - name: Rebuild CV PDF if publications changed
+        run: git diff --quiet -- assets/data/publications.json || npm run build-cv
+
+      - name: Commit updated publication list and CV
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update publications from DBLP"
-          file_pattern: assets/data/publications.json
+          file_pattern: assets/data/publications.json cv.pdf

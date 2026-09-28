@@ -1,0 +1,41 @@
+name: Build CV PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - assets/css/**
+      - assets/js/**
+      - assets/data/**
+      - assets/img/profile.jpg
+      - scripts/build-cv.mjs
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build-cv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Chromium for Playwright
+        run: npx playwright install --with-deps chromium
+
+      - name: Build cv.pdf
+        run: npm run build-cv
+
+      - name: Commit updated CV
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: rebuild CV PDF"
+          file_pattern: cv.pdf

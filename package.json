@@ -3,7 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "fetch-dblp": "node scripts/fetch-dblp.mjs"
+    "fetch-dblp": "node scripts/fetch-dblp.mjs",
+    "build-cv": "node scripts/build-cv.mjs"
   },
   "dependencies": {
     "fast-xml-parser": "^4.5.0",
