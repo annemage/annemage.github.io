@@ -56,9 +56,17 @@ p { margin: 0 0 1em; }
 .profile-pic {
   width: 128px;
   height: 128px;
-  border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
+  /* Square crop whose edges fade softly into the background */
+  -webkit-mask-image:
+    linear-gradient(to right, transparent, #000 20%, #000 80%, transparent),
+    linear-gradient(to bottom, transparent, #000 20%, #000 80%, transparent);
+  -webkit-mask-composite: source-in;
+  mask-image:
+    linear-gradient(to right, transparent, #000 20%, #000 80%, transparent),
+    linear-gradient(to bottom, transparent, #000 20%, #000 80%, transparent);
+  mask-composite: intersect;
 }
 
 .profile-header h1 { margin-bottom: 0.15em; }
